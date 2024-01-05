@@ -1,7 +1,11 @@
+import Post from "../Post"
 
-function Article(){
+const Article= () =>{
     return(
+        <>
         <h1>Article</h1>
+        <Post/>
+        </>
     );
 }
 
